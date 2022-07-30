@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megastore-1</title>
+    <link rel="stylesheet" href="style_1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <form id="form_1" class="auth" action="javascript:void(0)">
+        <div>
+            <p class="heading">Анкета  для корпоративных клиентов</p>
+        </div>
+        <div class="data_box">
+            <div><p class="block_name">Личные данные</p></div>
+            <div id ="personal_data" class="personal_data">
+                <div>
+                    <input id="lastName" class="box-1" type="text" data-required placeholder="Фамилия">
+                </div>
+                <div>
+                    <input id="name" class="box-1" type="text" data-required placeholder="Имя">
+                </div>
+                <div>
+                    <input id="middleName" class="box-1" type="text" data-required placeholder="Отчество">
+                </div>
+            </div>
+            <div><p class="block_name">Паспортные данные</p></div>
+            <div class="passport_data">
+                <div>
+                    <input id="birthDate" class="box-1" type="date" placeholder="Дата рождения">
+                </div>
+                <div>
+                    <input id="passportAddress" class="box-2" type="text" placeholder="Место проживания по прописке">
+                </div>
+                <div>
+                    <input id="passportNumber" class="box-1" type="text" placeholder="Серийный номер AN/ID">
+                </div>
+                <div>
+                    <input id="personalNumber" class="box-1" type="text" placeholder="ИНН">
+                </div>
+                <div>
+                    <input id="receivingDate" class="box-1" type="date" placeholder="Дата получения" >
+                </div>
+                <div>
+                    <input id="phone" class="box-1" type="text" placeholder="Контактный номер">
+                </div>
+                <div>
+                    <input id="email" class="box-1" type="email" placeholder="Электронный адрес">
+                </div>
+                <div>
+                    <select id="bank">
+                        <option value="0">Наименование банка</option>
+                        <option value="bank1">Bank1</option>
+                        <option value="bank2">Bank2</option>
+                        <option value="bank3">Bank3</option>
+                        <option value="bank4">Bank4</option>
+                    </select>
+                </div>
+                <div>
+                    <input id="address" class="box-2" type="text" placeholder="Фактическое место проживания">
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <button type="submit" class="btn">Далее</button>
+        </div>
+    </form>
+</div>
+
+
+<script src="script_1.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megastore-2</title>
+    <link rel="stylesheet" href="style_2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <form id="form_2" class="auth" action="javascript:void(0)">
+        <div>
+            <p class="heading">Данные о ваших доходах</p>
+        </div>
+        <div class="data_box">
+            <div class="info">
+                <div>
+                    <input id="company" class="box one" type="text" placeholder="Наименование организации">
+                </div>
+                <div>
+                    <input id="position" class="box two" type="text" placeholder="Должность">
+                </div>
+                <div>
+                    <input id="salary" class="box three" type="text" placeholder="Заработная плата в  месяц">
+                </div>
+                <div>
+                    <input id="last3MonthSlr" class="box three" type="text" placeholder="Заработная Плата  за посл.  3 месяца">
+                </div>
+            </div>
+            <div><p class="heading-2">Сведения о кредите</p></div>
+            <div class="credit-info">
+                <div>
+                    <input id="phoneName" class="box four" type="text" placeholder="Покупка телефона (наименование товара)">
+                </div>
+                <div>
+                    <input id="price" class="box two" type="text" placeholder="Стоимость товара">
+                </div>
+                <div>
+                    <input id="quantity" class="box two" type="text" placeholder="Количество товара">
+                </div>
+                <div>
+                    <input id="creditAmount" class="box two" type="text" placeholder="Итого сумма кредита">
+                </div>
+                <div>
+                    <select id="creditType" class="box two">
+                        <option value="0">Вид кредита</option>
+                        <option value="credit1">Credit1</option>
+                        <option value="credit2">Credit2</option>
+                        <option value="credit3">Credit3</option>
+                        <option value="credit4">Credit4</option>
+                    </select>
+                </div>
+                <div>
+                    <select id="creditTerm" class="box two">
+                        <option value="0">Срок кредита (мес)</option>
+                        <option value="9m">9 month</option>
+                        <option value="1y">1 year</option>
+                        <option value="3y">3 years</option>
+                        <option value="10y">10 years</option>
+                    </select>
+                </div>
+                <div>
+                    <select id="receivingPoint" class="box four">
+                        <option value="0">Точка получения товара</option>
+                        <option value="ad1">Address1</option>
+                        <option value="ad2">Address2</option>
+                        <option value="ad3">Address3</option>
+                        <option value="ad4">Address4</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="submit_box">
+            <button type="submit" class="btn">Отправить</button>
+        </div>
+    </form>
+</div>
+
+<script src="script_2.js"></script>
+</body>
+</html>
