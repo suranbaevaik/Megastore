@@ -108,10 +108,9 @@ select{
     border-radius: 4px;
     cursor: pointer;
 }
-.msg{
-    position: relative;
-}
 
+
+/*
 .border-style{
     border: 2px solid red;
 }
@@ -124,4 +123,13 @@ select{
     color: red;
     font-family: 'Sora', sans-serif;
     font-size: 10px;
+}*/
+
+.empty-field{
+    border: 2px solid red;
+}
+
+.text-error{
+    font-size: 10px;
+    color: red;
 }
